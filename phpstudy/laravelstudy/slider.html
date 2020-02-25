@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>はじめてのスライダー</title>
+    <link rel="stylesheet" href="./lib/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./lib/bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+</head>
+<body>
+    <h1>はじめてのスライダー</h1>
+    <ul class="slider">
+        <li><img src="./images/pic1.jpg"></li>
+        <li><img src="./images/pic2.jpg"></li>
+        <li><img src="./images/pic3.jpg"></li>
+    </ul>
+
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider();
+        });
+    </script>
+</body>
+</html>
