@@ -15,5 +15,6 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('books');
+    $books = Book::all();
+    return view('books', [ 'books' => $books ]);
 });
