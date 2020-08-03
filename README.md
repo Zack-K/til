@@ -8,6 +8,3 @@
 * phpstudy  
 Udemyの[Laravel講座](https://www.udemy.com/course/php7study/)で作成したソース
   * Laravel6でログイン機能付き本棚アプリケーション
-  
-* APG4b  
-[C++入門 AtCoder Programming Guide for beginners (APG4b)](https://atcoder.jp/contests/APG4b)の解答集
