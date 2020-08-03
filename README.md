@@ -6,7 +6,7 @@
   * AOJの問題をC言語で解いてみた
 
 * phpstudy  
-Udemyの[Laravel講座](https://www.udemy.com/course/php7study/learn/lecture/16487738)で作成したソース
+Udemyの[Laravel講座](https://www.udemy.com/course/php7study/)で作成したソース
   * Laravel6でログイン機能付き本棚アプリケーション
   
 * APG4b  
