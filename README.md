@@ -1,11 +1,12 @@
 # til(Today I Learned)
 自身の当日学んだことを残すためのリポジトリ
 
-* AOJ_Introduction_to_programming
+* [AOJ_Introduction_to_programming](https://judge.u-aizu.ac.jp/onlinejudge/index.jsp)
 	* Clang
 		* AOJの問題をC言語で解いてみた
 	* Ruby
-		* AOJの問題をRubyで解いてみた 
+		* [問題集 from ITP1](https://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=ITP1)
+			* AOJの問題をRubyで解いてみた 
 
-* ruby_programming
+* [ruby_programming](https://www.udemy.com/share/101WM43@kbNWoeuIMf6-A8spbykqHjaWCOkiveqqwATTjcyupHLH-2V_tXoXK7NBRkRW_JFZ/)
 	* Udemyの講座で学んだrubyの基本構文を写経したもの
