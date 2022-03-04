@@ -20,16 +20,16 @@ tags:
 
 
 <h2>Callbacks</h2>
-    
+
 <div class="option-name">onSliderLoad</div>
 <div class="option-desc">Executes immediately after the slider is fully loaded</div>
 {{#markdown }}
 <pre><code class="livecodeserver">default: function(){return true}
 options: function(el, currentIndex){ // your codehere }
 arguments:
-  currentIndex: element index of the current slide</code></pre>
+currentIndex: element index of the current slide</code></pre>
 {{/markdown }} 
-          
+
 <div class="option-name">onSlideBefore</div>
 <div class="option-desc">Executes immediately before each slide transition.</div>
 
@@ -38,9 +38,9 @@ arguments:
 default: function(){return true}
 options: function(el, $slideElement, oldIndex, newIndex){ // your codehere }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 {{/markdown }} 
 
@@ -52,9 +52,9 @@ arguments:
 default: function(){return true}
 options: function(el, $slideElement, oldIndex, newIndex){ // your codehere }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 {{/markdown }} 
 
@@ -66,9 +66,9 @@ arguments:
 default: function(){return true}
 options: function(el, $slideElement, oldIndex, newIndex){ // your codehere }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 {{/markdown }} 
 
@@ -80,9 +80,8 @@ arguments:
 default: function(){return true}
 options: function(el, $slideElement, oldIndex, newIndex){ // your codehere }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 {{/markdown }} 
-      

@@ -3,13 +3,13 @@
 
 class Dog
 {
-    // プロパティ
-    public $name = 'Hachi';
+// プロパティ
+public $name = 'Hachi';
 
-    // メソッド
-    public function bark(){
-        echo "ワン";
-    }
+// メソッド
+public function bark(){
+echo "ワン";
+}
 }
 
 // オブジェクト生成

@@ -1,5 +1,5 @@
 #⚠️ Looking for a maintainer ⚠️
-Please contact me if you are interested in keeping our community alive:  
+Please contact me if you are interested in keeping our community alive:
 https://github.com/stevenwanderski/bxslider-4/issues/1095
 
 ---
@@ -48,10 +48,10 @@ Create a `<ul class="bxslider">` element, with a `<li>` for each slide. Slides c
 
 ```html
 <ul class="bxslider">
-  <li><img src="/images/pic1.jpg" /></li>
-  <li><img src="/images/pic2.jpg" /></li>
-  <li><img src="/images/pic3.jpg" /></li>
-  <li><img src="/images/pic4.jpg" /></li>
+<li><img src="/images/pic1.jpg" /></li>
+<li><img src="/images/pic2.jpg" /></li>
+<li><img src="/images/pic3.jpg" /></li>
+<li><img src="/images/pic4.jpg" /></li>
 </ul>
 ```
 
@@ -61,7 +61,7 @@ Call .bxSlider() on `<ul class="bxslider">`. Note that the call must be made ins
 
 ```javascript
 $(document).ready(function(){
-  $('.bxslider').bxSlider();
+$('.bxslider').bxSlider();
 });
 ```
 
@@ -479,7 +479,7 @@ Executes immediately after the slider is fully loaded
 default: function(){}
 options: function(currentIndex){ // your code here }
 arguments:
-  currentIndex: element index of the current slide
+currentIndex: element index of the current slide
 ```
 
 **onSliderResize**
@@ -488,7 +488,7 @@ Executes immediately after the slider is resized
 default: function(){}
 options: function(currentIndex){ // your code here }
 arguments:
-  currentIndex: element index of the current slide
+currentIndex: element index of the current slide
 ```
 
 **onSlideBefore**
@@ -497,9 +497,9 @@ Executes immediately before each slide transition.
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 
 **onSlideAfter**
@@ -508,9 +508,9 @@ Executes immediately after each slide transition. Function argument is the curre
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 
 **onSlideNext**
@@ -519,9 +519,9 @@ Executes immediately before each "Next" slide transition. Function argument is t
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 
 **onSlidePrev**
@@ -530,9 +530,9 @@ Executes immediately before each "Prev" slide transition. Function argument is t
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-  $slideElement: jQuery element of the destination element
-  oldIndex: element index of the previous slide (before the transition)
-  newIndex: element index of the destination slide (after the transition)
+$slideElement: jQuery element of the destination element
+oldIndex: element index of the previous slide (before the transition)
+newIndex: element index of the destination slide (after the transition)
 ```
 
 ###Public methods

@@ -30,23 +30,23 @@
 				var slider = $('#demoSlider').bxSlider();
 
 				$('#slider-init').click(function(){
-				  slider.bxSlider();
-				  return false;
+				slider.bxSlider();
+				return false;
 				});
 
 				$('#slider-destroy').click(function(){
-				  slider.destroySlider();
-				  return false;
+				slider.destroySlider();
+				return false;
 				});
 			}
 		},
 		Vertical: {
 			init: function() {
 				var slider = $('#demoSlider').bxSlider({ 
-		            mode: 'vertical',
-		            slideWidth: 400,
-		            minSlides: 3,
-		            moveSlides: 1
+		mode: 'vertical',
+		slideWidth: 400,
+		minSlides: 3,
+		moveSlides: 1
 				});
 			}
 		},
@@ -58,22 +58,22 @@
 		Ticker: {
 			init: function() {
 				$('#demoSlider1').bxSlider({minSlides: 4,
-				  maxSlides: 4,
-				  slideWidth: 170,
-				  slideMargin: 10,
-				  ticker: true,
-				  tickerHover: true,
-				  useCSS: false,
-				  speed: 6000
+				maxSlides: 4,
+				slideWidth: 170,
+				slideMargin: 10,
+				ticker: true,
+				tickerHover: true,
+				useCSS: false,
+				speed: 6000
 				});
 				$('#demoSlider2').bxSlider({minSlides: 4,
-				  mode: 'vertical',
-				  maxSlides: 4,
-				  slideWidth: 170,
-				  slideMargin: 10,
-				  ticker: true,
-				  tickerHover: true,
-				  speed: 6000
+				mode: 'vertical',
+				maxSlides: 4,
+				slideWidth: 170,
+				slideMargin: 10,
+				ticker: true,
+				tickerHover: true,
+				speed: 6000
 				});
 			}
 		},
@@ -108,7 +108,7 @@
 			init: function() {
 				var slider = $('#demoSlider').bxSlider({
 					auto: true,
-  					autoControls: true
+					autoControls: true
 				});
 			}
 		},
@@ -213,20 +213,20 @@
 	// The routing fires all common scripts, followed by the page specific scripts.
 	// Add additional events for more control over timing e.g. a finalize event
 	var UTIL = {
-	  fire: function(func, funcname, args) {
+	fire: function(func, funcname, args) {
 		var namespace = Docs;
 		funcname = (funcname === undefined) ? 'init' : funcname;
 		if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
-		  namespace[func][funcname](args);
+		namespace[func][funcname](args);
 		}
-	  },
-	  loadEvents: function() {
+	},
+	loadEvents: function() {
 		UTIL.fire('common');
 
 		$.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
-		  UTIL.fire(classnm);
+		UTIL.fire(classnm);
 		});
-	  }
+	}
 	};
 
 	$(document).ready(UTIL.loadEvents);

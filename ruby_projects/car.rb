@@ -1,13 +1,13 @@
 # carクラスの作成
 
 class Car
-  def initialize(name)
-    @name = name
-  end
-  
-  def hello()
-    puts "Hello! I am #{@name}."
-  end
+def initialize(name)
+@name = name
+end
+
+def hello()
+puts "Hello! I am #{@name}."
+end
 end
 
 # インスタンスの生成

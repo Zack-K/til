@@ -3,13 +3,13 @@ i = gets.to_i
 
 
 begin
-  puts 10 / i
-  puts "begin's end"
+puts 10 / i
+puts "begin's end"
 rescue => ex
-  puts 'Error'
-  puts ex.message
-  puts ex.class
-  # other exception
+puts 'Error'
+puts ex.message
+puts ex.class
+# other exception
 ensure
-  puts 'end'
+puts 'end'
 end

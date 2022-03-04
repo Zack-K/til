@@ -1,11 +1,11 @@
 animal = 'horse'
 
 if animal == 'cat'
-  puts 'meow'
+puts 'meow'
 elsif animal == 'dog'
-  puts 'bowwow'
+puts 'bowwow'
 elsif animal == 'cow'
-  puts 'moomoo'
+puts 'moomoo'
 else
-  puts 'Not found.'
+puts 'Not found.'
 end

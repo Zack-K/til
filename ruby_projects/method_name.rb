@@ -1,5 +1,5 @@
 def hello_world
-  puts 'Hello'
+puts 'Hello'
 end
 
 hello_world

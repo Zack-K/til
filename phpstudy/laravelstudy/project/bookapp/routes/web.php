@@ -15,32 +15,32 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    $books = Book::all();
-    return view('books', [ 'books' => $books ]);
+$books = Book::all();
+return view('books', [ 'books' => $books ]);
 })->middleware('auth');
 
 Route::post('/book', function(Request $request) {
-    $validator = Validator::make($request->all(),[
-        'name' => 'required|max:255'
-    ]);
+$validator = Validator::make($request->all(),[
+'name' => 'required|max:255'
+]);
 
-    if($validator->fails()) {
-        return redirect('/')
-            ->withInput()
-            ->withErrors($validator);
-    }
+if($validator->fails()) {
+return redirect('/')
+->withInput()
+->withErrors($validator);
+}
 
-    $book = new Book;
-    $book->title = $request->name;
-    $book->save();
+$book = new Book;
+$book->title = $request->name;
+$book->save();
 
-    return redirect('/');
+return redirect('/');
 });
 
 Route::delete('/book/{book}', function(Book $book){
-    $book->delete();
+$book->delete();
 
-    return redirect('/');
+return redirect('/');
 });
 Auth::routes();
 

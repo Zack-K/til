@@ -1,11 +1,11 @@
 score = 90
 
 if score >= 90
-  puts 'A'
+puts 'A'
 elsif score >= 80
-  puts 'B'
+puts 'B'
 elsif score >= 60
-  puts 'C'
+puts 'C'
 else
-  puts 'D'
+puts 'D'
 end

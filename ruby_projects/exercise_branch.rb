@@ -5,9 +5,9 @@ age = 11
 # 小人（6歳未満）1,000
 
 if age >= 12
- puts 5000  
+ puts 5000
 elsif age >= 6
-  puts 2500
+puts 2500
 else
-  puts 1000
+puts 1000
 end

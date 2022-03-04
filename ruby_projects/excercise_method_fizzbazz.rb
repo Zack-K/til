@@ -1,13 +1,13 @@
 def fizz_bazz(number)
-  if number % 15 == 0
-    'FizzBazz'
-  elsif number % 5 == 0
-    'Bazz'
-  elsif number % 3 == 0
-    'Fizz'
-  else
-      number.to_s
-  end
+if number % 15 == 0
+'FizzBazz'
+elsif number % 5 == 0
+'Bazz'
+elsif number % 3 == 0
+'Fizz'
+else
+number.to_s
+end
 end
 
 

@@ -1,22 +1,22 @@
 stone = 'sapphinre'
 
 # if stone == 'ruby'
-#   puts 'July'
+# puts 'July'
 # elsif stone == 'peridot'
-#   puts 'August'
+# puts 'August'
 # elsif stone == 'sapphinre'
-#   puts 'September'
+# puts 'September'
 # else 
-#   puts 'Not found.'
+# puts 'Not found.'
 # end
 
 # ifと同じものをcaseで作ってみよう
 case stone
 when 'ruby' 
-  puts 'July'
+puts 'July'
 when 'peridot' 
-  puts 'August'
+puts 'August'
 when 'sapphinre' 
-  puts 'September'
+puts 'September'
 else puts 'Not found.'
 end 

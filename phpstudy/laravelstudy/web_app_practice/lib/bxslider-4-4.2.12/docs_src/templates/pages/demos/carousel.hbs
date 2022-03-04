@@ -16,56 +16,56 @@ tags:
 
 <h3>Quick glance</h3>
 <p>
-  <ol>
-    <li><a href="#example1">Example #1: Standard responsive carousel</a></li>
-    <li><a href="#example2">Example #2: Locked number of slides</a></li>
-    <li><a href="#example3">Example #3: Too large slideWidth</a></li>
-    <li><a href="#example4">Example #4: Move number of slides (moveSlides)</a></li>
-    <li><a href="#example5">Example #5: Infinite carousel with odd number of slides</a></li>
-    <li><a href="#example6">Example #6: Start on a different slide</a></li>
-    <li><a href="#example7">Example #7: Not enough slides</a></li>
-    <li><a href="#example8">Example #8: Vertical carousel</a></li>
-  </ol>
+<ol>
+<li><a href="#example1">Example #1: Standard responsive carousel</a></li>
+<li><a href="#example2">Example #2: Locked number of slides</a></li>
+<li><a href="#example3">Example #3: Too large slideWidth</a></li>
+<li><a href="#example4">Example #4: Move number of slides (moveSlides)</a></li>
+<li><a href="#example5">Example #5: Infinite carousel with odd number of slides</a></li>
+<li><a href="#example6">Example #6: Start on a different slide</a></li>
+<li><a href="#example7">Example #7: Not enough slides</a></li>
+<li><a href="#example8">Example #8: Vertical carousel</a></li>
+</ol>
 </p>
 
 <h2 id="example1">Example #1: Standard responsive carousel</h2>
 
 <div class="slider1">
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown }}
 ```$(document).ready(function(){
-  $('.slider1').bxSlider({
-    slideWidth: 200,
-    minSlides: 2,
-    maxSlides: 3,
-    slideMargin: 10
-  });
+$('.slider1').bxSlider({
+slideWidth: 200,
+minSlides: 2,
+maxSlides: 3,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider1">
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
 </div>
 ```
 
@@ -73,9 +73,9 @@ tags:
 
 <p>
 <ol>
-  <li>slideWidth</li>
-  <li>maxSlides</li>
-  <li>minSlides</li>
+<li>slideWidth</li>
+<li>maxSlides</li>
+<li>minSlides</li>
 </ol>
 </p>
 
@@ -96,14 +96,14 @@ tags:
 <p>Because our carousel is repsonsive and needs to look good across <em>all</em> devices, we have the ability to tell the carousel to display different amounts of slides depending on our screen size. Let's look at each setting:</p>
 
 <p>
-  <ol>
-    <li>
-      <strong>minSlides:</strong> always display at least this many slides. This means that <em>no matter what</em>, this amount of slides will always be displayed. Even if we size our browser down to 200px wide, the specified value of slides will be shown.
-    </li>
-    <li>
-      <strong>maxSlides:</strong> never display more than this many slides. This value combined with the slideWidth value is used to generate the slider container's max-width value which ensures that the viewport can never display more than <em>y</em> slides. So basically, the width of our slider container will always be either: maxSlides * slideWidth or 100% (if maxSlides * slideWidth is greater than the page container).
-    </li>
-  </ol>
+<ol>
+<li>
+<strong>minSlides:</strong> always display at least this many slides. This means that <em>no matter what</em>, this amount of slides will always be displayed. Even if we size our browser down to 200px wide, the specified value of slides will be shown.
+</li>
+<li>
+<strong>maxSlides:</strong> never display more than this many slides. This value combined with the slideWidth value is used to generate the slider container's max-width value which ensures that the viewport can never display more than <em>y</em> slides. So basically, the width of our slider container will always be either: maxSlides * slideWidth or 100% (if maxSlides * slideWidth is greater than the page container).
+</li>
+</ol>
 </p>
 
 <p>If these settings seem confusing, think of how differently a carousel could be displayed on a small mobile screen as opposed to a large desktop screen. On a 1900px-wide desktop monitor, the carousel could easily display 10 slides at a time, with room to breathe. However, on a 300px-wide mobile phone, we would rather display 2 slides at a time (as showing 10 slides would make the slides unreadable).</p>
@@ -122,43 +122,43 @@ tags:
 <h2 id="example2">Example #2: Locked number of slides</h2>
 
 <div class="slider2">
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar10"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown }}
 ```$(document).ready(function(){
-  $('.slider2').bxSlider({
-    slideWidth: 300,
-    minSlides: 2,
-    maxSlides: 2,
-    slideMargin: 10
-  });
+$('.slider2').bxSlider({
+slideWidth: 300,
+minSlides: 2,
+maxSlides: 2,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider2">
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/350x150&text=FooBar10"></div>
 </div>
 ```
 
@@ -170,43 +170,43 @@ tags:
 <h2 id="example3">Example #3: Too large slideWidth</h2>
 
 <div class="slider3">
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar10"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown}}
 ```$(document).ready(function(){
-  $('.slider3').bxSlider({
-    slideWidth: 5000,
-    minSlides: 2,
-    maxSlides: 4,
-    slideMargin: 10
-  });
+$('.slider3').bxSlider({
+slideWidth: 5000,
+minSlides: 2,
+maxSlides: 4,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider3">
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/500x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/500x150&text=FooBar10"></div>
 </div>
 ```
 
@@ -218,44 +218,44 @@ tags:
 <h2 id="example4">Example #4: Move number of slides (moveSlides)</h2>
 
 <div class="slider4">
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown}}
 ```$(document).ready(function(){
-  $('.slider4').bxSlider({
-    slideWidth: 300,
-    minSlides: 2,
-    maxSlides: 3,
-    moveSlides: 1,
-    slideMargin: 10
-  });
+$('.slider4').bxSlider({
+slideWidth: 300,
+minSlides: 2,
+maxSlides: 3,
+moveSlides: 1,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider4">
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
 </div>
 ```
 
@@ -267,44 +267,44 @@ tags:
 <h2 id="example5">Example #5: Infinite carousel with odd number of slides</h2>
 
 <div class="slider5">
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown}}
 ```$(document).ready(function(){
-  $('.slider5').bxSlider({
-    slideWidth: 300,
-    minSlides: 3,
-    maxSlides: 3,
-    moveSlides: 3,
-    slideMargin: 10
-  });
+$('.slider5').bxSlider({
+slideWidth: 300,
+minSlides: 3,
+maxSlides: 3,
+moveSlides: 3,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider5">
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
 </div>
 ```
 
@@ -315,44 +315,44 @@ tags:
 <h2 id="example6">Example #6: Start on a different slide</h2>
 
 <div class="slider6">
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown}}
 ```$(document).ready(function(){
-  $('.slider6').bxSlider({
-    slideWidth: 300,
-    minSlides: 2,
-    maxSlides: 3,
-    startSlide: 2,
-    slideMargin: 10
-  });
+$('.slider6').bxSlider({
+slideWidth: 300,
+minSlides: 2,
+maxSlides: 3,
+startSlide: 2,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider6">
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x150&text=FooBar10"></div>
 </div>
 ```
 
@@ -363,27 +363,27 @@ tags:
 <h2 id="example7">Example #7: Not enough slides</h2>
 
 <div class="slider7">
-  <div class="slide"><img src="http://placehold.it/200x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/200x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/200x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/200x150&text=FooBar2"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown}}
 ```$(document).ready(function(){
-  $('.slider7').bxSlider({
-    slideWidth: 200,
-    minSlides: 4,
-    maxSlides: 5,
-    slideMargin: 10
-  });
+$('.slider7').bxSlider({
+slideWidth: 200,
+minSlides: 4,
+maxSlides: 5,
+slideMargin: 10
+});
 });
 ```
 
 <h4>HTML:</h4>
 ```
 <div class="slider7">
-  <div class="slide"><img src="http://placehold.it/200x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/200x150&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/200x150&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/200x150&text=FooBar2"></div>
 </div>
 ```
 
@@ -394,27 +394,27 @@ tags:
 <h2 id="example8">Example #8: Vertical carousel</h2>
 
 <div class="slider8">
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar9"></div>
-  <div class="slide"><img src="http://placehold.it/300x100&text=FooBar10"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar1"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar2"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar3"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar4"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar5"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar6"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar7"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar8"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar9"></div>
+<div class="slide"><img src="http://placehold.it/300x100&text=FooBar10"></div>
 </div>
 
 <h4>JS:</h4>
 {{#markdown}}
 ```$(document).ready(function(){
-  $('.slider8').bxSlider({
-    mode: 'vertical',
-    slideWidth: 300,
-    minSlides: 2,
-    slideMargin: 10
-  });
+$('.slider8').bxSlider({
+mode: 'vertical',
+slideWidth: 300,
+minSlides: 2,
+slideMargin: 10
+});
 });
 ```
 

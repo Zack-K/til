@@ -1,11 +1,11 @@
 def cry(animal)
-  if animal == 'cat'
-    'meow'
-  elsif animal == 'dog'
-    'bowwow'
-  else
-    '???'
-  end
+if animal == 'cat'
+'meow'
+elsif animal == 'dog'
+'bowwow'
+else
+'???'
+end
 end
 
 animal = 'dog'
