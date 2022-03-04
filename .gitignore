@@ -1,4 +1,4 @@
 /.vscode
 .DS_Store
-/phpstudy/
-/ruby_project/hello
+phpstudy/
+ruby_project/hello
