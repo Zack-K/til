@@ -10,10 +10,8 @@
 #  n ≤ 100
 #  0 ≤ ai < 1000
 
-
-# コンソール上ではできているが回答が通らない
 input = gets.to_i
 
-lines = gets.split(' ').map(&:to_i).sort.reverse
+lines = gets.split(' ').map(&:to_i).reverse
 
 puts lines.to_a.join(' ')
