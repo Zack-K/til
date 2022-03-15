@@ -10,3 +10,6 @@
 
 * [ruby_programming](https://www.udemy.com/share/101WM43@kbNWoeuIMf6-A8spbykqHjaWCOkiveqqwATTjcyupHLH-2V_tXoXK7NBRkRW_JFZ/)
 	* Udemyの講座で学んだrubyの基本構文を写経したもの
+
+* ruby-book
+	* [プロを目指す人のためのRuby入門](https://www.amazon.co.jp/dp/B077Q8BXHC)の例題を写経したり、自分で解いたりしたもの
